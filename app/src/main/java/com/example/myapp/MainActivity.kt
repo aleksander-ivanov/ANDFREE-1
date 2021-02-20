@@ -15,13 +15,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val myText = "Hello, Danila!"
-        val myNumber = 42
-        val myFloatNumber = 3.14
-        val outputText = "$myText $myNumber $myFloatNumber"
-
-        val textView = findViewById<TextView>(R.id.text_output)
-        textView.text = outputText
+        setSupportActionBar(findViewById(R.id.topAppBar))
 
         Log.d(MY_APP, "End of Create function")
     }
