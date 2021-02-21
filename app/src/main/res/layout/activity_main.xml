@@ -76,7 +76,7 @@
                 android:layout_height="?attr/actionBarSize"
                 android:layout_gravity="bottom"
                 app:navigationIcon="?android:attr/actionModeWebSearchDrawable"
-                app:title="Netology Voice Assistant"
+                app:title="Voice Assistant"
                 app:titleTextColor="@color/white" />
 
         </com.google.android.material.appbar.CollapsingToolbarLayout>
@@ -103,6 +103,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
+                android:textIsSelectable="true"
                 android:gravity="center" />
 
         </com.google.android.material.card.MaterialCardView>
